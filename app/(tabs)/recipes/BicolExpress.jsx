@@ -22,7 +22,7 @@ const BicolExpress = () => {
 
       {/* Picture under the title */}
       <Image 
-        source={require('../../../assets/images/recipes/Bicol-Express.jpg')} // Correct way to load local images
+        source={require('../../../assets/images/Bicol-Express.jpg')} // Correct way to load local images
         style={styles.recipeImage} 
       />
       

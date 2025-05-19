@@ -22,7 +22,7 @@ const SiliIceCream = () => {
 
       {/* Picture under the title */}
       <Image 
-                    source={require('../../../assets/images/recipes/Sili-Ice-Cream.jpg')} // Correct way to load local images
+                    source={require('../../../assets/images/Sili-Ice-Cream.jpg')} // Correct way to load local images
                     style={styles.recipeImage} 
             />
       

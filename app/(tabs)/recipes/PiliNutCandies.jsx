@@ -22,7 +22,7 @@ const PiliNutCandies = () => {
 
       {/* Picture under the title */}
       <Image 
-                    source={require('../../../assets/images/recipes/Pili-Nut-Candies.jpg')} // Correct way to load local images
+                    source={require('../../../assets/images/Pili-Nut-Candies.jpg')} // Correct way to load local images
                     style={styles.recipeImage} 
             />
       

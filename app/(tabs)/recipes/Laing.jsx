@@ -22,7 +22,7 @@ const Laing = () => {
 
       {/* Picture under the title */}
       <Image 
-              source={require('../../../assets/images/recipes/Laing.jpg')} // Correct way to load local images
+              source={require('../../../assets/images/Laing.jpg')} // Correct way to load local images
               style={styles.recipeImage} 
       />
       

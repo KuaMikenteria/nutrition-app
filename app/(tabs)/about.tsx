@@ -7,7 +7,7 @@ export default function AboutScreen() {
 
   // Function to navigate to the RecipeDetails screen
   const navigateToRecipeDetails = () => {
-    navigation.navigate('RecipeDetails');
+    navigation.navigate('RecipeDetails.tsx' as never);
   };
 
   return (

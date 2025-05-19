@@ -22,7 +22,7 @@ const Kandingga = () => {
 
       {/* Picture under the title */}
       <Image
-        source={require('../../../assets/images/recipes/Kandingga.jpg')} // Correct way to load local images
+        source={require('../../../assets/images/Kandingga.jpg')} // Correct way to load local images
         style={styles.recipeImage}
       />
 

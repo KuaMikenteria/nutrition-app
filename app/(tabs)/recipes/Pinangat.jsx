@@ -23,7 +23,7 @@ const Pinangat = () => {
 
       {/* Picture under the title */}
       <Image 
-                    source={require('../../../assets/images/recipes/Pinangat.jpg')} // Correct way to load local images
+                    source={require('../../../assets/images/Pinangat.jpg')} // Correct way to load local images
                     style={styles.recipeImage} 
             />
       
