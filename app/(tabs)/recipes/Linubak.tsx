@@ -20,7 +20,7 @@ const Linubak = () => {
 
   // Navigate to RecipeDetails screen
   const goBack = () => {
-    navigation.navigate("RecipeDetails"); // Navigate explicitly to RecipeDetails
+    navigation.goBack(); // Navigate explicitly to RecipeDetails
   };
 
   return (
