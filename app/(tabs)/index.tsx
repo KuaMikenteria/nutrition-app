@@ -1,22 +1,28 @@
 import React from 'react';
 import { Text, View, StyleSheet, TouchableOpacity } from 'react-native';
 import { Link } from 'expo-router'; // Expo router Link for navigation
+import { ImageBackground } from 'react-native'; // For background image
 
 const Index = () => {
   return (
+        <ImageBackground
+          source={require('../../assets/images/cover-bg.png')} // 🌄 Use your background image here
+          style={styles.background}
+          resizeMode="cover"
+        >
     <View style={styles.container}>
       {/* Large ENTER button */}
       <Link href="/about" style={styles.button}>
         <Text style={styles.buttonText}>ENTER</Text>
       </Link>
     </View>
+        </ImageBackground>
   );
 };
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#25292e',
     justifyContent: 'flex-end', // Center the button towards the bottom
     alignItems: 'center',
     paddingBottom: 50, // Add some space from the bottom
@@ -33,6 +39,12 @@ const styles = StyleSheet.create({
     color: '#fff',
     fontSize: 24,
     fontWeight: 'bold',
+  },
+  background: {
+    flex: 1,
+    resizeMode: 'cover',
+    height: '100%',
+    width: '100%',
   },
 });
 
